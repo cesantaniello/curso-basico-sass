@@ -1,0 +1,16 @@
+#main {
+  width: 100%;
+}
+
+#main p, #main div {
+  font-size: 3em;
+}
+
+#main p a, #main div a {
+  font-weight: bold;
+}
+
+#main pre {
+  font-size: 10em;
+}
+/*# sourceMappingURL=estilos.css.map */
