@@ -1,0 +1,12 @@
+$vari: 1;
+
+@while $vari <=10 {
+    .selector:nth-child(#{$vari}){
+        width: 20px * $vari;
+        height: 15px;
+        border: 1px solid #aaa;
+        background: darken(#fff, $vari);
+        margin-bottom: #{$vari};
+    }
+    $vari: $vari + 1;
+}

@@ -1,0 +1,80 @@
+.selector:nth-child(1) {
+  width: 20px;
+  height: 15px;
+  border: 1px solid #aaa;
+  background: #fcfcfc;
+  margin-bottom: 1;
+}
+
+.selector:nth-child(2) {
+  width: 40px;
+  height: 15px;
+  border: 1px solid #aaa;
+  background: #fafafa;
+  margin-bottom: 2;
+}
+
+.selector:nth-child(3) {
+  width: 60px;
+  height: 15px;
+  border: 1px solid #aaa;
+  background: #f7f7f7;
+  margin-bottom: 3;
+}
+
+.selector:nth-child(4) {
+  width: 80px;
+  height: 15px;
+  border: 1px solid #aaa;
+  background: whitesmoke;
+  margin-bottom: 4;
+}
+
+.selector:nth-child(5) {
+  width: 100px;
+  height: 15px;
+  border: 1px solid #aaa;
+  background: #f2f2f2;
+  margin-bottom: 5;
+}
+
+.selector:nth-child(6) {
+  width: 120px;
+  height: 15px;
+  border: 1px solid #aaa;
+  background: #f0f0f0;
+  margin-bottom: 6;
+}
+
+.selector:nth-child(7) {
+  width: 140px;
+  height: 15px;
+  border: 1px solid #aaa;
+  background: #ededed;
+  margin-bottom: 7;
+}
+
+.selector:nth-child(8) {
+  width: 160px;
+  height: 15px;
+  border: 1px solid #aaa;
+  background: #ebebeb;
+  margin-bottom: 8;
+}
+
+.selector:nth-child(9) {
+  width: 180px;
+  height: 15px;
+  border: 1px solid #aaa;
+  background: #e8e8e8;
+  margin-bottom: 9;
+}
+
+.selector:nth-child(10) {
+  width: 200px;
+  height: 15px;
+  border: 1px solid #aaa;
+  background: #e6e6e6;
+  margin-bottom: 10;
+}
+/*# sourceMappingURL=while.css.map */
