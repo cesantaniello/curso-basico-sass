@@ -4,7 +4,7 @@ $selector: "selector";
 
 @mixin color_clase($color){
     .#{$color} > h2 {
-        background-image: url("iamgenes/" + $color + ".png");
+        background-image: url("imagenes/" + $color + ".png");
         color: $color;
         #{$fsize}: 20px;
     }
