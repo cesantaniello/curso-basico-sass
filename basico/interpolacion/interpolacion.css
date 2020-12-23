@@ -1,0 +1,40 @@
+#selector {
+  color: red;
+  font-size: 20px;
+}
+
+#selector-2 {
+  color: red;
+  font-size: 20px;
+}
+
+.red > h2 {
+  background-image: url("iamgenes/red.png");
+  color: red;
+  font-size: 20px;
+}
+
+.yellow > h2 {
+  background-image: url("iamgenes/yellow.png");
+  color: yellow;
+  font-size: 20px;
+}
+
+.white > h2 {
+  background-image: url("iamgenes/white.png");
+  color: white;
+  font-size: 20px;
+}
+
+.blue > h2 {
+  background-image: url("iamgenes/blue.png");
+  color: blue;
+  font-size: 20px;
+}
+
+.green > h2 {
+  background-image: url("iamgenes/green.png");
+  color: green;
+  font-size: 20px;
+}
+/*# sourceMappingURL=interpolacion.css.map */

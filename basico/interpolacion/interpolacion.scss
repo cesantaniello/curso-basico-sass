@@ -1,0 +1,26 @@
+$color: red;
+$fsize: font-size;
+$selector: "selector";
+
+@mixin color_clase($color){
+    .#{$color} > h2 {
+        background-image: url("iamgenes/" + $color + ".png");
+        color: $color;
+        #{$fsize}: 20px;
+    }
+}
+
+##{$selector}{
+    color: $color;
+    #{$fsize}: 20px;
+}
+##{$selector}-2{
+    color: $color;
+    #{$fsize}: 20px;
+}
+
+@include color_clase(red);
+@include color_clase(yellow);
+@include color_clase(white);
+@include color_clase(blue);
+@include color_clase(green);
