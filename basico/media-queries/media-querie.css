@@ -1,0 +1,26 @@
+p.seccion {
+  font-size: 16px;
+  color: black;
+}
+
+@media (max-width: 480px) {
+  p.seccion {
+    font-size: 22px;
+    color: red;
+  }
+}
+
+@media tablets {
+  p.seccion {
+    font-size: 18px;
+    color: green;
+  }
+}
+
+@media (min-width: 1024px) {
+  p.seccion {
+    font-size: 20px;
+    color: yellow;
+  }
+}
+/*# sourceMappingURL=media-querie.css.map */

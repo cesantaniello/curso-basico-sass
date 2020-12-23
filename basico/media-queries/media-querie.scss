@@ -1,0 +1,29 @@
+//Variables
+$smartphone: "(max-width: 480px)";
+$desktop: "(min-width: 1024px)";
+
+@mixin tablets{
+    @media (min-width: 480px) and (max-width: 728px){
+        @content;
+    }
+}
+
+p.seccion {
+    font-size: 16px;
+    color: black;
+
+    @media #{$smartphone}{
+        font-size: 22px;
+        color: red;
+    }
+
+    @media tablets{
+        font-size: 18px;
+        color: green;
+    }
+
+    @media #{$desktop}{
+        font-size: 20px;
+        color: yellow;
+    }
+}
