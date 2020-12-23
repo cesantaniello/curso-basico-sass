@@ -1,0 +1,18 @@
+.animal-icon {
+  background-image: url("/images/animal.png");
+  border: 2px solid black;
+  cursor: default;
+}
+
+.animal-icon {
+  background-image: url("/images/animal.png");
+  border: 2px solid blue;
+  cursor: pointer;
+}
+
+.animal-icon {
+  background-image: url("/images/animal.png");
+  border: 2px solid white;
+  cursor: move;
+}
+/*# sourceMappingURL=each.css.map */
