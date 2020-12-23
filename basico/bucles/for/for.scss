@@ -1,0 +1,8 @@
+$start: 1;
+$end: 5;
+
+@for $i from $start through $end{
+    .caja:nth-child(#{$i}) {
+        width: 2em * $i; 
+    }
+}
