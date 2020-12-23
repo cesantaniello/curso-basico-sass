@@ -1,0 +1,38 @@
+//Mixins
+@mixin titulos($fsize, $fw, $color: black){
+    margin: 0 0 20px 0;
+    font-family: Georgia, serif;
+    font-size: $fsize;
+    font-weight: $fw;
+    text-transform: uppercase;
+    color: $color;
+}
+@mixin shadow($x, $y, $blur, $color){
+    box-shadow: $x, $y, $blur, $color;
+    -webkit-box-shadow: $x, $y, $blur, $color;
+    -mox-box-shadow: $x, $y, $blur, $color;
+}
+//SCSS
+section > h1 {
+    @include titulos(22px, bold);
+}
+
+section > h2 {
+    @include titulos(18px, 600, #666);
+}
+
+section > h3 {
+    @include titulos(15px, 300, #999);
+}
+
+#caja1 {
+    @include shadow(1px, 2px, 5px, rgba(89,5,0,0.6))
+}
+
+#caja2 {
+    @include shadow(6px, 4px, 5px, rgba(1,0,66,0.6))
+}
+
+#caja3 {
+    @include shadow(9px, 5px, 5px, rgba(0,122,0,0.6))
+}

@@ -1,0 +1,45 @@
+section > h1 {
+  margin: 0 0 20px 0;
+  font-family: Georgia, serif;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+}
+
+section > h2 {
+  margin: 0 0 20px 0;
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #666;
+}
+
+section > h3 {
+  margin: 0 0 20px 0;
+  font-family: Georgia, serif;
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #999;
+}
+
+#caja1 {
+  box-shadow: 1px, 2px, 5px, rgba(89, 5, 0, 0.6);
+  -webkit-box-shadow: 1px, 2px, 5px, rgba(89, 5, 0, 0.6);
+  -mox-box-shadow: 1px, 2px, 5px, rgba(89, 5, 0, 0.6);
+}
+
+#caja2 {
+  box-shadow: 6px, 4px, 5px, rgba(1, 0, 66, 0.6);
+  -webkit-box-shadow: 6px, 4px, 5px, rgba(1, 0, 66, 0.6);
+  -mox-box-shadow: 6px, 4px, 5px, rgba(1, 0, 66, 0.6);
+}
+
+#caja3 {
+  box-shadow: 9px, 5px, 5px, rgba(0, 122, 0, 0.6);
+  -webkit-box-shadow: 9px, 5px, 5px, rgba(0, 122, 0, 0.6);
+  -mox-box-shadow: 9px, 5px, 5px, rgba(0, 122, 0, 0.6);
+}
+/*# sourceMappingURL=mixins.css.map */
