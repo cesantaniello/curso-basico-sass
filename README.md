@@ -1,1 +1,1 @@
-# curso-basico-sass
+# curso básico de sass
