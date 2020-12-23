@@ -1,0 +1,56 @@
+//Variables
+$alto: 200px;
+$ancho: 15%;
+
+@mixin condicional($color){
+    background-color: ($color);
+
+    @if $color == orange {
+        border: 3px solid black;
+    } @else if $color == purple {
+        border: 3px solid yellow;
+    } @else {
+        border: 3px solid red;
+    }
+}
+
+//Placeholder
+%buttom {
+    margin: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    height: $alto;
+    width: $ancho;
+
+    @if $alto == 200px {
+        margin: 10px;
+    } @else {
+        clear: both;
+    }
+}
+
+//Estilos CSS
+.caja1 {
+    @extend %buttom;
+    @include condicional(orange);
+}
+
+.caja2 {
+    @extend %buttom;
+    @include condicional(purple);
+}
+
+.caja3 {
+    @extend %buttom;
+    @include condicional(red);
+}
+
+.caja4 {
+    @extend %buttom;
+    @include condicional(silver);
+}
+
+.caja5 {
+    @extend %buttom;
+    @include condicional(red);
+}
